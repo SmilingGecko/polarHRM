@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Welcome to the HRV Poincaré Plotter! This application connects to your Polar H7 device and relays useful information on your heart, as well as rendering
+a Poincaré format plot to better view this data! Take note that the larger the cloud of points, the higher variability you have! Any plot points that
+appear outside of the cloud may suggest irregularities in your heart beat, or device issues. Issues may be caused by the device not being properly fixed to your chest!
+If such irregularities continue to occur while your device is properly fixed onto your chest, it may be worth visiting a doctor and relaying your concerns.
+I hope you find this application useful for better understanding your heart during every day tasks and exercise"
+
+        />
+
+
+
+</RelativeLayout>
