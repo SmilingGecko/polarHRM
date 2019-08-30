@@ -5,16 +5,13 @@
     <!--    xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="AllowBackup,GoogleAppIndexingWarning"-->
 
-    <!-- Include required permissions for Google Mobile Ads to run. -->
+    <!--  -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <!--@
-    TODO take care og the backup thing More info: https://developer.android.com/preview/backup/index.html (at line 12)
-    TODO App is not indexable by Google Search; consider adding at least one Activity with an ACTION-VIEW intent-filler. See issue explanation for more details. (at line 17)
-
-    FIX the two things in tools:ignore
+  
     -->
     <application
         android:allowBackup="true"
